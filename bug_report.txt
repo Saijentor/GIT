@@ -1,0 +1,17 @@
+Summary: Application isn't closed when press Alt-F4
+Project: Keyboard functionality
+Component: Functionality of combinations on the keyboard
+Version: 1.0
+Severity: S3
+Priority: P2
+Status: New
+Author: Gavrilenko Sergey
+Assigned To: Myself
+Description:Brand:Razer, Series:Huntsman V2 Analog,Item model number:RZ03-03610200-R3U1, Version:1.0, Date:Ferbruary 9, 2021
+Steps to Reproduce:
+  1)Connect the keyboard via usb to the computer
+  2)Open any application on your computer
+  3)Press combination alt+f4
+Result: Nothing happened
+Expected Result: Application closing  
+Attachment: -
