@@ -1,24 +1,24 @@
 # The result of learning GIT is displayed in this repository
-_ Contains two homework assignments + bug report and checklist._
+ *Contains two homework assignments + bug report and checklist.*
 ***
 ## GIT Homework 1:
-* Клонировать репозиторий JSON на локальный компьютер:
+* Clone JSON repository to local machine:
 ``` 
 git clone https://github.com/Saijentor/JSON.git
 ```
-* Добавить файл под гит:
+* Add file under git:
 ```
 git add new.json
 ```
-* Закоммитить файл:
+* Commit file:
 ```
 git commit -m "add new.json"
 ```
-* Отправить файл на внешний GitHub репозиторий:
+* Push a file to an external GitHub repository:
 ```
 git push
 ```
-* Синхронизировать внешний и локальный репозиторий JSON:
+* Synchronize external and local JSON repository:
 ```
 git pull
 ```
