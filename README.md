@@ -27,25 +27,25 @@ git pull
 ***
 
 ## GIT Homework 2:
-* На локальном репозитории сделать ветки:
+* Make branches on the local repository:
 ````
 git branch Postman Jmeter Checklists Bug_Reports SQL Charles Mobile_testing
 ````
-* Запушить все ветки на внешний репозиторий:
+* Push all branches to external repository:
 ```
 git push origin --all
 ```
-* В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
+* In the Bag Reports branch, make a text document with the bug report structure:
 ```
 git checkout Bug_reports
 vim bug_report.txt
 ```
-* Вмержить ветку Bag Reports в Main:
+* Merge the Bag Reports branch into Main:
 ```
 git checkout main
 git merge bug_reports
 ```
-* Синхронизировать Внешнюю и Локальную ветки MainOne line command. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file:
+* Synchronize External and Local branches MainOne line command:
 ```
 git checkout main
 git pull
