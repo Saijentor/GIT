@@ -1,67 +1,67 @@
 GIT Homework 1
 
 JSON
-4. Create an external repository named JSON.
+1. Create an external repository named JSON.
   New -> "JSON" -> Create repository
 
-5. Clone the JSON repository to the local computer.
+2. Clone the JSON repository to the local computer.
   git clone https://github.com/Saijentor/JSON.git
 
-6. Create a “new.json” file inside the local JSON.
+3. Create a “new.json” file inside the local JSON.
   touch new.json
 
-7. Add the file to git.
+4. Add the file to git.
   git add new.json
 
-8. Commit the file.
+5. Commit the file.
   git commit -m "add new.json"
 
-9. Send the file to an external GitHub repository.
+6. Send the file to an external GitHub repository.
   git push
  
-10. Edit the contents of the file ”new.json" - write information about yourself (full name, age, number of pets, future desired salary). Write everything down in JSON  forma.
+7. Edit the contents of the file ”new.json" - write information about yourself (full name, age, number of pets, future desired salary). Write everything down in JSON  forma.
   vim new.json
  
-11. Send the changes to an external repository.
+8. Send the changes to an external repository.
   git commit -am "update new.json"
   git push
  
-12. Create a preferences.json.
+9. Create a preferences.json.
   touch preferences.json
  
-13. To the preferences file.json add information about your preferences (Favorite movie, favorite TV series, favorite food, favorite time of year, party you would like to visit) in JSON format.
+10. To the preferences file.json add information about your preferences (Favorite movie, favorite TV series, favorite food, favorite time of year, party you would like to visit) in JSON format.
  vim preferences.json
  
-14. Create a sklls file.json add information about the skills that will be studied in the course in JSON format.
+11. Create a sklls file.json add information about the skills that will be studied in the course in JSON format.
   touch skills.json
   vim skills.json
  
-15. Send 2 files to an external repository at once.
+12. Send 2 files to an external repository at once.
   git add .
   git commit -m "add preferences.json, skills.json"
   git push
  
-16. Create a bug_report.json file on the web interface.
+13. Create a bug_report.json file on the web interface.
   Add file -> Create new file -> "bug_report.json" -> ...
  
-17. Make Commit changes (save) changes on the web interface.
+14. Make Commit changes (save) changes on the web interface.
   ... "commit" -> Commit new file
  
-18. Modify the bug_report file on the web interface.json, add a bug report in json format.
+15. Modify the bug_report file on the web interface.json, add a bug report in json format.
   bug_report.json -> edit this file -> ...
  
-19. Make Commit changes (save) changes on the web interface.
+16. Make Commit changes (save) changes on the web interface.
   ... "Create bug report" -> Commit changes
  
-20. Synchronize external and local JSON repository.
+17. Synchronize external and local JSON repository.
   git pull
 
 
 
 XML
- 21. Создать внешний репозиторий c названием XML.
+ 21. Create an external repository named XML.
 New -> "XML" -> Create repository
- 22. Клонировать репозиторий XML на локальный компьютер.
+ 22. КClone the XML repository to the local computer.
 git clone https://github.com/Saijentor/XML.git
  23. Внутри локального XML создать файл “new.xml”.
 touch new.xml
