@@ -59,44 +59,61 @@ JSON
 
 
 XML
- 21. Create an external repository named XML.
-New -> "XML" -> Create repository
- 22. КClone the XML repository to the local computer.
-git clone https://github.com/Saijentor/XML.git
- 23. Внутри локального XML создать файл “new.xml”.
-touch new.xml
- 24. Добавить файл под гит.
-git add new.xml
- 25. Закоммитить файл.
-git commit -m "add new.xml"
- 26. Отправить файл на внешний GitHub репозиторий.
-git push
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-vim new.xml
- 28. Отправить изменения на внешний репозиторий.
-git commit -am "update new.xml"
-git push
- 29. Создать файл preferences.xml
-touch preferences.xml
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-vim preferences.xml
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-touch skills.xml
-vim skills.xml
- 32. Сделать коммит в одну строку.
-git add . && git commit -m "add preferences.xml, skills.xml"
- 33. Отправить сразу 2 файла на внешний репозиторий.
-git push
- 34. На веб интерфейсе создать файл bug_report.xml.
-Add file -> Create new file -> "bug_report.xml" -> ...
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-... "commit" -> Commit new file
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-bug_report.xml -> edit this file -> ...
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-... "Create bug report" -> Commit changes
- 38. Синхронизировать внешний и локальный репозиторий XML
-git pull
+18. Create an external repository named XML.
+  New -> "XML" -> Create repository
+
+19. КClone the XML repository to the local computer.
+  git clone https://github.com/Saijentor/XML.git
+
+20. Create a file inside the local XML “new.xml ”.
+  touch new.xml
+
+21. Add a file under git.
+  git add new.xml
+
+22. Commit the file.
+  git commit -m "add new.xml"
+
+23. Send the file to an external GitHub repository.
+  git push
+
+24. dit the contents of the file “new.xml ” - write information about yourself (full name, age, number of pets, future desired salary). Write everything in XML format.
+  vim new.xml
+
+25. Send the changes to an external repository.
+  git commit -am "update new.xml"
+  git push
+
+26. Create a file preferences.xml.
+  touch preferences.xml
+
+27. To the file preferences.xml add information about your preferences (Favorite movie, favorite TV series, favorite food, favorite time of year, the party you would like to visit) in XML format.
+  vim preferences.xml
+
+28. Create a file sklls.xml add information about the skills that will be studied in the course in XML format.
+  touch skills.xml
+  vim skills.xml
+
+29. Make a commit in one line.
+  git add . && git commit -m "add preferences.xml, skills.xml"
+
+30. Send 2 files to an external repository at once.
+  git push
+
+31. Create a file on the web interface bug_report.xml.
+  Add file -> Create new file -> "bug_report.xml" -> ...
+
+32. Make Commit changes (save) changes on the web interface.
+  ... "commit" -> Commit new file
+
+33. Modify the file on the web interface bug_report.xml , add a bug report in XML format.
+  bug_report.xml -> edit this file -> ...
+
+34. Make Commit changes (save) changes on the web interface.
+  ... "Create bug report" -> Commit changes
+
+35. Synchronize external and local XML repository.
+  git pull
 
 
 
