@@ -118,41 +118,58 @@ XML
 
 
 TXT
- 1. Создать внешний репозиторий c названием TXT.
-New -> "TXT" -> Create repository
- 2. Клонировать репозиторий TXT на локальный компьютер.
-git clone https://github.com/Saijentor/TXT.git
- 3. Внутри локального TXT создать файл “new.txt”.
-touch new.txt
- 4. Добавить файл под гит.
-git add new.txt
- 5. Закоммитить файл.
-git commit -m "add new.txt"
- 6. Отправить файл на внешний GitHub репозиторий.
-git push
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-vim new.txt
- 8. Отправить изменения на внешний репозиторий.
-git commit -am "update new.txt"
-git push
- 9. Создать файл preferences.txt
-touch preferences.txt
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-vim preferences.txt
- 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-touch skills.txt
-vim skills.txt
- 12. Сделать коммит в одну строку.
-git add . && git commit -m "add preferences.txt, skills.txt"
- 13. Отправить сразу 2 файла на внешний репозиторий.
-git push
- 14. На веб интерфейсе создать файл bug_report.txt.
-Add file -> Create new file -> "bug_report.txt" -> ...
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-... "commit" -> Commit new file
- 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-bug_report.txt -> edit this file -> ...
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-... "Create bug report" -> Commit changes
- 18. Синхронизировать внешний и локальный репозиторий TXT
-git pull
+36. Create an external repository called TXT.
+  New -> "TXT" -> Create repository
+
+37. Clone the TXT repository to the local computer.
+  git clone https://github.com/Saijentor/TXT.git
+
+38. Create a file inside the local TXT “new.txt ”.
+  touch new.txt
+
+39. Add a file under git.
+  git add new.txt
+
+40. Commit the file.
+  git commit -m "add new.txt"
+
+41. Send the file to an external GitHub repository.
+  git push
+
+42. Edit the contents of the file “new.txt ” - write information about yourself (full name, age, number of pets, future desired salary). Write everything in TXT format.
+  vim new.txt
+
+43. Send the changes to an external repository.
+  git commit -am "update new.txt"
+  git push
+
+44. Create a file preferences.txt
+  touch preferences.txt
+
+45. To the file preferences.txt ” add information about your preferences (Favorite movie, favorite TV series, favorite food, favorite time of year, the party you would like to visit) in TXT format.
+  vim preferences.txt
+
+46. Create a file sklls.txt add information about the skills that will be studied on the course in TXT format.
+  touch skills.txt
+  vim skills.txt
+
+47. Make a commit in one line.
+  git add . && git commit -m "add preferences.txt, skills.txt"
+
+48. Send 2 files to an external repository at once.
+  git push
+
+49. Create a file on the web interface bug_report.txt .
+  Add file -> Create new file -> "bug_report.txt" -> ...
+
+50. Make Commit changes (save) changes on the web interface.
+  ... "commit" -> Commit new file
+
+51. Modify the file on the web interface bug_report.txt , add a bug report in TXT format.
+  bug_report.txt -> edit this file -> ...
+
+52. Make Commit changes (save) changes on the web interface.
+  ... "Create bug report" -> Commit changes
+
+53. Synchronize the external and local TXT repository.
+  git pull
